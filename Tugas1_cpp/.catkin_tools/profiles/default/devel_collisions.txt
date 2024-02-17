@@ -32,3 +32,4 @@
 /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/lib/pkgconfig/testing_package.pc 2
 /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/lib/testing_package/navigator 2
 /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/lib/testing_package/commander 2
+/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/./cmake.lock 51

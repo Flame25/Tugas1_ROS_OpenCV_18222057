@@ -1,8 +1,8 @@
-prefix=/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package
+prefix=/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package
 
 Name: testing_package
 Description: Description of testing_package
 Version: 0.0.0
-Cflags: -I/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/include
+Cflags: -I/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/include
 Libs: -L${prefix}/lib 
 Requires: 

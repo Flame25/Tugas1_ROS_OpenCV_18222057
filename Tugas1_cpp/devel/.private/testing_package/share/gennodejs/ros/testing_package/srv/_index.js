@@ -1,8 +1,8 @@
 
 "use strict";
 
-let modifyText = require('./modifyText.js')
+let Land = require('./Land.js')
 
 module.exports = {
-  modifyText: modifyText,
+  Land: Land,
 };

@@ -21,7 +21,7 @@ else
   CATKIN_SHELL=sh
 fi
 
-: ${_CATKIN_SETUP_DIR:=/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package}
+: ${_CATKIN_SETUP_DIR:=/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package}
 : ${_CONDA_SETUP_DIR:=$CONDA_PREFIX/etc/conda/activate.d/}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 

@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel;/home/gadzz/miniforge3/envs/ros_env'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel;/home/gadzz/miniforge3/envs/ros_env'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

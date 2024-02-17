@@ -8,93 +8,24 @@ In file included from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/
                  from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/forwards.h:37[m[K,
                  from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/common.h:37[m[K,
                  from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/ros.h:43[m[K,
-                 from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:4[m[K:
+                 from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:1[m[K:
 [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/config/pragma_message.hpp:24:34:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
    24 | # define BOOST_PRAGMA_MESSAGE(x) [01;36m[K_Pragma[m[K(BOOST_STRINGIZE(message(x)))
       |                                  [01;36m[K^~~~~~~[m[K
 [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KBOOST_PRAGMA_MESSAGE[m[K’
    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:21:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials[m[K’ has not been declared
-   21 | bool modifyDefaultText([01;31m[Kbeginner_tutorials[m[K::modifyText::Request& request,
-      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:21:65:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
-   21 | bool modifyDefaultText(beginner_tutorials::modifyText::Request& [01;31m[Krequest[m[K,
-      |                                                                 [01;31m[K^~~~~~~[m[K
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:22:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials[m[K’ has not been declared
-   22 | [01;31m[Kbeginner_tutorials[m[K::modifyText::Response& response) {
-      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:22:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
-   22 | beginner_tutorials::modifyText::Response& [01;31m[Kresponse[m[K) {
-      |                                           [01;31m[K^~~~~~~~[m[K
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:22:51:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
-   22 | beginner_tutorials::modifyText::Response& response[01;31m[K)[m[K {
-      |                                                   [01;31m[K^[m[K
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertiseService(const char [11], bool&)[m[K’
-   97 |   auto server = [01;31m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/ros.h:45[m[K:
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:879:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, bool (T::*)(MReq&, MRes&), T*)[m[K’
-  879 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, bool(T::*srv_func)(MReq &, MRes &), T *obj)
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:879:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kbool (T::*)(MReq&, MRes&)[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:924:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, bool (T::*)(ros::ServiceEvent<MReq, MRes>&), T*)[m[K’
-  924 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, bool(T::*srv_func)(ServiceEvent<MReq, MRes>&), T *obj)
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:924:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kbool (T::*)(ros::ServiceEvent<MReq, MRes>&)[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:970:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, bool (T::*)(MReq&, MRes&), const boost::shared_ptr<X>&)[m[K’
-  970 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, bool(T::*srv_func)(MReq &, MRes &), const boost::shared_ptr<T>& obj)
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:970:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kbool (T::*)(MReq&, MRes&)[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1017:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, bool (T::*)(ros::ServiceEvent<MReq, MRes>&), const boost::shared_ptr<X>&)[m[K’
- 1017 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, bool(T::*srv_func)(ServiceEvent<MReq, MRes>&), const boost::shared_ptr<T>& obj)
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1017:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kbool (T::*)(ros::ServiceEvent<MReq, MRes>&)[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1061:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, bool (*)(MReq&, MRes&))[m[K’
- 1061 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, bool(*srv_func)(MReq&, MRes&))
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1061:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kbool (*)(MReq&, MRes&)[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1104:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, bool (*)(ros::ServiceEvent<MReq, MRes>&))[m[K’
- 1104 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, bool(*srv_func)(ServiceEvent<MReq, MRes>&))
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1104:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kbool (*)(ros::ServiceEvent<MReq, MRes>&)[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1145:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MReq, class MRes> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, const boost::function<bool(MReq&, MRes&)>&, const ros::VoidConstPtr&)[m[K’
- 1145 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, const boost::function<bool(MReq&, MRes&)>& callback,
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1145:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<bool(MReq&, MRes&)>[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1190:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S> ros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(const std::string&, const boost::function<bool(S&)>&, const ros::VoidConstPtr&)[m[K’
- 1190 |   ServiceServer [01;36m[KadvertiseService[m[K(const std::string& service, const boost::function<bool(S&)>& callback,
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1190:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
-[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:97:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<bool(S&)>[m[K’ and ‘[01m[Kbool[m[K’
-   97 |   auto server = [01;36m[Kn.advertiseService("modifyText", modifyDefaultText)[m[K;
-      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1222:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::ServiceServer ros::NodeHandle::[01;32m[KadvertiseService[m[K(ros::AdvertiseServiceOptions&)[m[K’
- 1222 |   ServiceServer [01;36m[KadvertiseService[m[K(AdvertiseServiceOptions& ops);
-      |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h:1222:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
-make[2]: *** [CMakeFiles/navigator.dir/build.make:76: CMakeFiles/navigator.dir/src/navigator.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:959: CMakeFiles/navigator.dir/all] Error 2
+In file included from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:3[m[K:
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.hpp:13:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktesting_package::Land[m[K’ has not been declared
+   13 |   bool handleLandRequest(testing_package::[01;31m[KLand[m[K::Request &req, testing_package::Land::Response &res);
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.hpp:13:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   13 |   bool handleLandRequest(testing_package::Land::Request [01;31m[K&[m[Kreq, testing_package::Land::Response &res);
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:[m[K In function ‘[01m[Kbool[01;32m[K handleLandRequest[m[K(testing_package::Land::Request&, testing_package::Land::Response&)[m[K’:
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrone_pos_[m[K’ was not declared in this scope
+   31 |   [01;31m[Kdrone_pos_[m[K.status = "land";
+      |   [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/commander.dir/build.make:76: CMakeFiles/commander.dir/src/commander.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1017: CMakeFiles/commander.dir/all] Error 2
 make: *** [Makefile:146: all] Error 2

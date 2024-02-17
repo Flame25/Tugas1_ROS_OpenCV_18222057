@@ -8,10 +8,31 @@ In file included from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/
                  from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/forwards.h:37[m[K,
                  from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/common.h:37[m[K,
                  from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/ros.h:43[m[K,
-                 from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:4[m[K:
+                 from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:1[m[K:
 [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/config/pragma_message.hpp:24:34:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
    24 | # define BOOST_PRAGMA_MESSAGE(x) [01;36m[K_Pragma[m[K(BOOST_STRINGIZE(message(x)))
       |                                  [01;36m[K^~~~~~~[m[K
 [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KBOOST_PRAGMA_MESSAGE[m[K’
    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:3[m[K:
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.hpp:13:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktesting_package::Land[m[K’ has not been declared
+   13 |   bool handleLandRequest(testing_package::[01;31m[KLand[m[K::Request &req, testing_package::Land::Response &res);
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.hpp:13:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   13 |   bool handleLandRequest(testing_package::Land::Request [01;31m[K&[m[Kreq, testing_package::Land::Response &res);
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:[m[K In function ‘[01m[Kbool[01;32m[K handleLandRequest[m[K(testing_package::Land::Request&, testing_package::Land::Response&)[m[K’:
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrone_pos[m[K’ was not declared in this scope
+   31 |   [01;31m[Kdrone_pos[m[K.status = "land";
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:[m[K At global scope:
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:42:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’
+   42 | int [01;31m[Kmain[m[K(int argc, char **argv) {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/commander.cpp:15:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’ previously defined here
+   15 | int [01;36m[Kmain[m[K(int argc, char **argv) {
+      |     [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/commander.dir/build.make:76: CMakeFiles/commander.dir/src/commander.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1017: CMakeFiles/commander.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

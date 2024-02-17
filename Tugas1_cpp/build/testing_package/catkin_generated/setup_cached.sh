@@ -7,9 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package:$CMAKE_PREFIX_PATH"
-export PKG_CONFIG_PATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package'
-export PYTHONPATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/lib/python3.9/site-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package:/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package:$CMAKE_PREFIX_PATH"
+export PKG_CONFIG_PATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package'
+export PYTHONPATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/lib/python3.9/site-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package:$ROS_PACKAGE_PATH"

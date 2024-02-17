@@ -1,7 +1,0 @@
-[31mCMake Error at /home/gadzz/miniforge3/envs/ros_env/share/genmsg/cmake/genmsg-extras.cmake:151 (message):
-  add_service_files() directory not found:
-  /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/srv
-[36mCall Stack (most recent call first):[0m
-  CMakeLists.txt:59 (add_service_files)
-
-[0m

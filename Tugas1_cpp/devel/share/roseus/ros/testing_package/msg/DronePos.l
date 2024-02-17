@@ -1,1 +1,1 @@
-/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/devel/.private/testing_package/share/roseus/ros/testing_package/msg/DronePos.l
+/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/roseus/ros/testing_package/msg/DronePos.l

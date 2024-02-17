@@ -1,6 +1,7 @@
 CMakeFiles/navigator.dir/src/navigator.cpp.o: \
- /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package/src/navigator.cpp \
+ /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/navigator.cpp \
  /usr/include/stdc-predef.h \
+ /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/navigator.hpp \
  /home/gadzz/miniforge3/envs/ros_env/include/ros/ros.h \
  /home/gadzz/miniforge3/envs/ros_env/include/ros/time.h \
  /home/gadzz/miniforge3/envs/ros_env/include/ros/platform.h \
@@ -1193,6 +1194,5 @@ CMakeFiles/navigator.dir/src/navigator.cpp.o: \
  /home/gadzz/miniforge3/envs/ros_env/include/ros/param.h \
  /home/gadzz/miniforge3/envs/ros_env/include/ros/topic.h \
  /home/gadzz/miniforge3/envs/ros_env/include/ros/node_handle.h \
- /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/include/testing_package/DronePos.h \
- /home/gadzz/miniforge3/envs/ros_env/include/ros/message_operations.h \
- /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package/src/navigator.hpp
+ /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/include/testing_package/DronePos.h \
+ /home/gadzz/miniforge3/envs/ros_env/include/ros/message_operations.h

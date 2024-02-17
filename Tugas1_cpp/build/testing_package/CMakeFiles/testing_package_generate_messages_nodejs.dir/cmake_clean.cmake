@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/share/gennodejs/ros/testing_package/msg/DronePos.js"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/gennodejs/ros/testing_package/msg/DronePos.js"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/gennodejs/ros/testing_package/srv/Land.js"
   "CMakeFiles/testing_package_generate_messages_nodejs"
 )
 

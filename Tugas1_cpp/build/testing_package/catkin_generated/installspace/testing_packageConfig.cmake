@@ -67,14 +67,14 @@ set(testing_package_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(testing_package_SOURCE_PREFIX /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package)
-  set(testing_package_DEVEL_PREFIX /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package)
+  set(testing_package_SOURCE_PREFIX /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package)
+  set(testing_package_DEVEL_PREFIX /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package)
   set(testing_package_INSTALL_PREFIX "")
   set(testing_package_PREFIX ${testing_package_DEVEL_PREFIX})
 else()
   set(testing_package_SOURCE_PREFIX "")
   set(testing_package_DEVEL_PREFIX "")
-  set(testing_package_INSTALL_PREFIX /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/install)
+  set(testing_package_INSTALL_PREFIX /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/install)
   set(testing_package_PREFIX ${testing_package_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/install/lib;/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/lib;/home/gadzz/miniforge3/envs/ros_env/lib)
+    foreach(path /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/install/lib;/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/lib;/home/gadzz/miniforge3/envs/ros_env/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

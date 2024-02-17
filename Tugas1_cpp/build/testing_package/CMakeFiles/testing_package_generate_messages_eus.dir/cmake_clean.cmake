@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/share/roseus/ros/testing_package/manifest.l"
-  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/share/roseus/ros/testing_package/msg/DronePos.l"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/roseus/ros/testing_package/manifest.l"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/roseus/ros/testing_package/msg/DronePos.l"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/share/roseus/ros/testing_package/srv/Land.l"
   "CMakeFiles/testing_package_generate_messages_eus"
 )
 

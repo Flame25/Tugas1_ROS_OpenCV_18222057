@@ -53,10 +53,10 @@ RM = /home/gadzz/miniforge3/envs/ros_env/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package
+CMAKE_SOURCE_DIR = /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package
+CMAKE_BINARY_DIR = /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -78,6 +78,6 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

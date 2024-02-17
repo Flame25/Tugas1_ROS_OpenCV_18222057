@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/3.25.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/3.25.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-XpkWUU
+Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-Cziy4t
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_0edcf/fast && /usr/bin/make  -f CMakeFiles/cmTC_0edcf.dir/build.make CMakeFiles/cmTC_0edcf.dir/build
-make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-XpkWUU'
-Building C object CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b127d/fast && /usr/bin/make  -f CMakeFiles/cmTC_b127d.dir/build.make CMakeFiles/cmTC_b127d.dir/build
+make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-Cziy4t'
+Building C object CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: x86_64-pc-linux-gnu
@@ -39,8 +39,8 @@ Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,for
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 13.2.1 20230801 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0edcf.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0edcf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccxV0rK2.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b127d.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b127d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccW1GEVi.s
 GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
 
@@ -54,15 +54,15 @@ ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..
  /usr/include
 End of search list.
 Compiler executable checksum: eb0b45108af02c02a078961940bce3e9
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0edcf.dir/'
- as -v --64 -o CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o /tmp/ccxV0rK2.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b127d.dir/'
+ as -v --64 -o CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o /tmp/ccW1GEVi.s
 GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_0edcf
-/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0edcf.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o -o cmTC_0edcf 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b127d
+/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b127d.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o -o cmTC_b127d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -73,10 +73,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 13.2.1 20230801 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0edcf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0edcf.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cccSGPUT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0edcf /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0edcf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0edcf.'
-make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-XpkWUU'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b127d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b127d.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5jmriB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b127d /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b127d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b127d.'
+make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-Cziy4t'
 
 
 
@@ -97,12 +97,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-XpkWUU]
+  ignore line: [Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-Cziy4t]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_0edcf/fast && /usr/bin/make  -f CMakeFiles/cmTC_0edcf.dir/build.make CMakeFiles/cmTC_0edcf.dir/build]
-  ignore line: [make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-XpkWUU']
-  ignore line: [Building C object CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_b127d/fast && /usr/bin/make  -f CMakeFiles/cmTC_b127d.dir/build.make CMakeFiles/cmTC_b127d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-Cziy4t']
+  ignore line: [Building C object CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -110,8 +110,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0edcf.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0edcf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccxV0rK2.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b127d.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b127d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccW1GEVi.s]
   ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
   ignore line: []
@@ -125,15 +125,15 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
   ignore line: [Compiler executable checksum: eb0b45108af02c02a078961940bce3e9]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0edcf.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o /tmp/ccxV0rK2.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b127d.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o /tmp/ccW1GEVi.s]
   ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_0edcf]
-  ignore line: [/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0edcf.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o -o cmTC_0edcf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b127d]
+  ignore line: [/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b127d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o -o cmTC_b127d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -144,13 +144,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 13.2.1 20230801 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0edcf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0edcf.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cccSGPUT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0edcf /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b127d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b127d.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5jmriB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b127d /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccSGPUT.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5jmriB.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -166,7 +166,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0edcf] ==> ignore
+    arg [cmTC_b127d] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -175,7 +175,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-    arg [CMakeFiles/cmTC_0edcf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b127d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -204,12 +204,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-ogxHZe
+Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-tWs7xw
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_70d40/fast && /usr/bin/make  -f CMakeFiles/cmTC_70d40.dir/build.make CMakeFiles/cmTC_70d40.dir/build
-make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-ogxHZe'
-Building CXX object CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89c2c/fast && /usr/bin/make  -f CMakeFiles/cmTC_89c2c.dir/build.make CMakeFiles/cmTC_89c2c.dir/build
+make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-tWs7xw'
+Building CXX object CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: x86_64-pc-linux-gnu
@@ -217,8 +217,8 @@ Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,for
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 13.2.1 20230801 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_70d40.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_70d40.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccSU7ym0.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89c2c.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_89c2c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccVudKFJ.s
 GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
 
@@ -235,15 +235,15 @@ ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..
  /usr/include
 End of search list.
 Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_70d40.dir/'
- as -v --64 -o CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSU7ym0.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89c2c.dir/'
+ as -v --64 -o CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVudKFJ.s
 GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_70d40
-/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70d40.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_70d40 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_89c2c
+/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89c2c.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_89c2c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -254,10 +254,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 13.2.1 20230801 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70d40' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_70d40.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpYEbv8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_70d40 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70d40' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_70d40.'
-make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-ogxHZe'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_89c2c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89c2c.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfTtC2c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_89c2c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_89c2c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89c2c.'
+make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-tWs7xw'
 
 
 
@@ -284,12 +284,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-ogxHZe]
+  ignore line: [Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-tWs7xw]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_70d40/fast && /usr/bin/make  -f CMakeFiles/cmTC_70d40.dir/build.make CMakeFiles/cmTC_70d40.dir/build]
-  ignore line: [make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-ogxHZe']
-  ignore line: [Building CXX object CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_89c2c/fast && /usr/bin/make  -f CMakeFiles/cmTC_89c2c.dir/build.make CMakeFiles/cmTC_89c2c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-tWs7xw']
+  ignore line: [Building CXX object CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o -c /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -297,8 +297,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_70d40.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_70d40.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccSU7ym0.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89c2c.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/gadzz/miniforge3/envs/ros_env/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_89c2c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccVudKFJ.s]
   ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
   ignore line: []
@@ -315,15 +315,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
   ignore line: [Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_70d40.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSU7ym0.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89c2c.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVudKFJ.s]
   ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_70d40]
-  ignore line: [/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70d40.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_70d40 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_89c2c]
+  ignore line: [/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89c2c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_89c2c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -334,13 +334,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 13.2.1 20230801 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70d40' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_70d40.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpYEbv8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_70d40 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_89c2c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89c2c.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfTtC2c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_89c2c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpYEbv8.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfTtC2c.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -356,7 +356,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_70d40] ==> ignore
+    arg [cmTC_89c2c] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -365,7 +365,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-    arg [CMakeFiles/cmTC_70d40.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_89c2c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -390,16 +390,16 @@ Parsed CXX implicit link information from above output:
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-GPC9xd
+Change Dir: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-grze9V
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_041ab/fast && /usr/bin/make  -f CMakeFiles/cmTC_041ab.dir/build.make CMakeFiles/cmTC_041ab.dir/build
-make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-GPC9xd'
-Building C object CMakeFiles/cmTC_041ab.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_041ab.dir/src.c.o -c /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-GPC9xd/src.c
-Linking C executable cmTC_041ab
-/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_041ab.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_041ab.dir/src.c.o -o cmTC_041ab 
-make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-GPC9xd'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_213cd/fast && /usr/bin/make  -f CMakeFiles/cmTC_213cd.dir/build.make CMakeFiles/cmTC_213cd.dir/build
+make[1]: Entering directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-grze9V'
+Building C object CMakeFiles/cmTC_213cd.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_213cd.dir/src.c.o -c /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-grze9V/src.c
+Linking C executable cmTC_213cd
+/home/gadzz/miniforge3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_213cd.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_213cd.dir/src.c.o -o cmTC_213cd 
+make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/build/testing_package/CMakeFiles/CMakeScratch/TryCompile-grze9V'
 
 
 Source file was:

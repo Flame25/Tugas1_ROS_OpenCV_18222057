@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/src/testing_package/src/navigator.cpp" "CMakeFiles/navigator.dir/src/navigator.cpp.o" "gcc" "CMakeFiles/navigator.dir/src/navigator.cpp.o.d"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/src/navigator.cpp" "CMakeFiles/navigator.dir/src/navigator.cpp.o" "gcc" "CMakeFiles/navigator.dir/src/navigator.cpp.o.d"
   )
 
 # Targets to which this target links.

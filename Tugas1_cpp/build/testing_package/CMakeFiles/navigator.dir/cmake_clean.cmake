@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/lib/testing_package/navigator"
-  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/devel/.private/testing_package/lib/testing_package/navigator.pdb"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/lib/testing_package/navigator"
+  "/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/devel/.private/testing_package/lib/testing_package/navigator.pdb"
   "CMakeFiles/navigator.dir/src/navigator.cpp.o"
   "CMakeFiles/navigator.dir/src/navigator.cpp.o.d"
 )

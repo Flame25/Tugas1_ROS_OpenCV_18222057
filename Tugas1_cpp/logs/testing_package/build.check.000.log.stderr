@@ -1,0 +1,13 @@
+[31mCMake Error at /home/gadzz/miniforge3/envs/ros_env/share/catkin/cmake/assert.cmake:20 (message):
+
+
+  Assertion failed: file
+  '/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/Tugas1_cpp/src/testing_package/srv/Launch.srv'
+  does not exist.  Message: service file not found
+
+[36mCall Stack (most recent call first):[0m
+  /home/gadzz/miniforge3/envs/ros_env/share/genmsg/cmake/genmsg-extras.cmake:170 (assert_file_exists)
+  CMakeLists.txt:58 (add_service_files)
+
+[0m
+make: *** [Makefile:728: cmake_check_build_system] Error 1
