@@ -1,0 +1,8 @@
+prefix=/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_cpp/install
+
+Name: testing_package
+Description: Description of testing_package
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

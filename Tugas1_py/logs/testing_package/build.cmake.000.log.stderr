@@ -1,0 +1,7 @@
+[31mCMake Error at /home/gadzz/miniforge3/envs/ros_env/share/genmsg/cmake/genmsg-extras.cmake:94 (message):
+  add_message_files() directory not found:
+  /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/src/testing_package/msg
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:52 (add_message_files)
+
+[0m

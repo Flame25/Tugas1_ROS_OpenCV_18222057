@@ -1,0 +1,22 @@
+<launch>
+    <env
+        name="ROSCONSOLE_CONFIG_FILE"
+        value="$(find testing_package)/config/config.conf"
+    />
+    <arg name = "frequency" default = "10" />
+    <node
+        pkg = "testing_package"
+        type = "navigator"
+        name = "navigator"
+        output = "screen"
+        args="$(arg frequency)"
+    />
+    
+    <node
+        pkg = "testing_package"
+        type = "commander"
+        name = "commander"
+        output = "screen"
+        launch-prefix = "kitty"
+    />
+</launch>

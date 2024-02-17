@@ -1,0 +1,6 @@
+devel_space: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/devel
+install: false
+install_space: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/install
+profile: default
+source_space: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/src
+workspace: /home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py

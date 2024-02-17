@@ -1,0 +1,1 @@
+/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/devel/.private/testing_package/share/common-lisp/ros/testing_package/msg/_package.lisp

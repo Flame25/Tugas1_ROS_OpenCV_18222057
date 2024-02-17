@@ -1,0 +1,1 @@
+/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/devel/.private/testing_package/share/testing_package/cmake/testing_package-msg-extras.cmake

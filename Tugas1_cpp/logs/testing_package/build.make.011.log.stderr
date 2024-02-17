@@ -1,0 +1,17 @@
+In file included from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/forwards.h:37[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/common.h:37[m[K,
+                 from [01m[K/home/gadzz/miniforge3/envs/ros_env/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1/src/testing_package/src/navigator.cpp:1[m[K:
+[01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/config/pragma_message.hpp:24:34:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   24 | # define BOOST_PRAGMA_MESSAGE(x) [01;36m[K_Pragma[m[K(BOOST_STRINGIZE(message(x)))
+      |                                  [01;36m[K^~~~~~~[m[K
+[01m[K/home/gadzz/miniforge3/envs/ros_env/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KBOOST_PRAGMA_MESSAGE[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K

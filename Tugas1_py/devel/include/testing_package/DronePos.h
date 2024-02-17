@@ -1,0 +1,1 @@
+/home/gadzz/Documents/Aksantara/ROS_OpenCV/Tugas1_py/devel/.private/testing_package/include/testing_package/DronePos.h
